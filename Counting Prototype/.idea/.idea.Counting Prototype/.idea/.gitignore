@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.Counting Prototype.iml
+# Datasource local storage ignored files
+/../../../../../../../../:\__PROJETS\__GITHUB\unityJuniorProgrammer\Counting Prototype\.idea\.idea.Counting Prototype\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

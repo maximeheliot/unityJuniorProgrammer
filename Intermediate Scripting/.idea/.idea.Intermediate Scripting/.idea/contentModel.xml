@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\maxim\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\maxim\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Intermediate Scripting.-2051449238.00" t="ExcludeRecursive" />
+    <e p="D:\__PROJETS\__GITHUB\unityJuniorProgrammer\Intermediate Scripting" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Generics" t="Include">
+            <e p="GenericClass.cs" t="Include" />
+            <e p="GenericClassExample.cs" t="Include" />
+            <e p="SomeGeneric.cs" t="Include" />
+            <e p="SomeOtherGeneric.cs" t="Include" />
+          </e>
+          <e p="Inheritance" t="Include">
+            <e p="Apple.cs" t="Include" />
+            <e p="Fruit.cs" t="Include" />
+            <e p="FruitSalad.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="Avatar.cs" t="Include" />
+            <e p="Interfaces.cs" t="Include" />
+          </e>
+          <e p="Member Hiding" t="Include">
+            <e p="Enemy2.cs" t="Include" />
+            <e p="Humanoid.cs" t="Include" />
+            <e p="Orc.cs" t="Include" />
+            <e p="WarBand.cs" t="Include" />
+          </e>
+          <e p="Method Overloading" t="Include">
+            <e p="SomeClass.cs" t="Include" />
+            <e p="SomeOtherClass.cs" t="Include" />
+          </e>
+          <e p="Overriding" t="Include">
+            <e p="Apple3.cs" t="Include" />
+            <e p="Fruit3.cs" t="Include" />
+            <e p="FruitSalad3.cs" t="Include" />
+          </e>
+          <e p="Polymorphism" t="Include">
+            <e p="Apple2.cs" t="Include" />
+            <e p="Fruit2.cs" t="Include" />
+            <e p="FruitSalad2.cs" t="Include" />
+          </e>
+          <e p="Properties" t="Include">
+            <e p="Game.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+          </e>
+          <e p="Statics" t="Include">
+            <e p="Enemy.cs" t="Include" />
+            <e p="GameStatic.cs" t="Include" />
+            <e p="PlayerManager.cs" t="Include" />
+            <e p="PlayerStatic.cs" t="Include" />
+            <e p="Utilities.cs" t="Include" />
+            <e p="UtilitiesExample.cs" t="Include" />
+          </e>
+          <e p="Ternary Operator" t="Include">
+            <e p="TernaryOperator.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Intermediate Scripting.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
