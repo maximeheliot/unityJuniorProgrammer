@@ -7,6 +7,28 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Attributes" t="Include">
+            <e p="ColorScript.cs" t="Include" />
+            <e p="SpinScript.cs" t="Include" />
+          </e>
+          <e p="Coroutines" t="Include">
+            <e p="ClickSetPosition.cs" t="Include" />
+            <e p="CoroutinesExample.cs" t="Include" />
+            <e p="PropertiesAndCoroutines.cs" t="Include" />
+          </e>
+          <e p="Delegates" t="Include">
+            <e p="DelegateScript.cs" t="Include" />
+            <e p="MulticastScript.cs" t="Include" />
+          </e>
+          <e p="Events" t="Include">
+            <e p="EventManager.cs" t="Include" />
+            <e p="TeleportScript.cs" t="Include" />
+            <e p="TurnColorScript.cs" t="Include" />
+          </e>
+          <e p="Extension Methods" t="Include">
+            <e p="ExtensionMethods.cs" t="Include" />
+            <e p="SomeExtensionClass.cs" t="Include" />
+          </e>
           <e p="Generics" t="Include">
             <e p="GenericClass.cs" t="Include" />
             <e p="GenericClassExample.cs" t="Include" />
@@ -22,6 +44,11 @@
             <e p="Avatar.cs" t="Include" />
             <e p="Interfaces.cs" t="Include" />
           </e>
+          <e p="List and Dictionnaries" t="Include">
+            <e p="BadGuy.cs" t="Include" />
+            <e p="SomeDictionnaryClass.cs" t="Include" />
+            <e p="SomeListClass.cs" t="Include" />
+          </e>
           <e p="Member Hiding" t="Include">
             <e p="Enemy2.cs" t="Include" />
             <e p="Humanoid.cs" t="Include" />
@@ -31,6 +58,9 @@
           <e p="Method Overloading" t="Include">
             <e p="SomeClass.cs" t="Include" />
             <e p="SomeOtherClass.cs" t="Include" />
+          </e>
+          <e p="Namespaces" t="Include">
+            <e p="SomeNamespaceClass.cs" t="Include" />
           </e>
           <e p="Overriding" t="Include">
             <e p="Apple3.cs" t="Include" />
@@ -45,6 +75,12 @@
           <e p="Properties" t="Include">
             <e p="Game.cs" t="Include" />
             <e p="Player.cs" t="Include" />
+          </e>
+          <e p="Quaternions" t="Include">
+            <e p="GravityScript.cs" t="Include" />
+            <e p="LookAtScript.cs" t="Include" />
+            <e p="MotionScript.cs" t="Include" />
+            <e p="SomeQuaternionClass.cs" t="Include" />
           </e>
           <e p="Statics" t="Include">
             <e p="Enemy.cs" t="Include" />

@@ -2,65 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe09ad16-f2ca-49d9-8c69-bb48db031009" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Counting Prototype/.idea/.idea.Counting Prototype/.idea/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Counting Prototype/.idea/.idea.Counting Prototype/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Error Project/.idea/.idea.Error Project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Error Project/.idea/.idea.Error Project/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Error Project/.idea/.idea.Error Project/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Error Project/.idea/.idea.Error Project/.idea/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Error Project/.idea/.idea.Error Project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Intermediate Scripting/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Intermediate Scripting/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Intermediate Scripting/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Intermediate Scripting/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Intermediate Scripting/.idea/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Intermediate Scripting/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generics/GenericClass.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generics/GenericClass.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generics/GenericClassExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generics/GenericClassExample.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generics/SomeGeneric.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generics/SomeGeneric.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generics/SomeOtherGeneric.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generics/SomeOtherGeneric.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inheritance/Apple.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inheritance/Apple.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inheritance/Fruit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inheritance/Fruit.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inheritance/FruitSalad.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inheritance/FruitSalad.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/Avatar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/Avatar.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/Interfaces.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/Interfaces.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Member Hiding/Enemy2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Member Hiding/Enemy2.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Member Hiding/Humanoid.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Member Hiding/Humanoid.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Member Hiding/Orc.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Member Hiding/Orc.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Member Hiding/WarBand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Member Hiding/WarBand.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Method Overloading/SomeClass.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Overriding/Apple3.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Overriding/Apple3.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Overriding/Fruit3.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Overriding/Fruit3.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Overriding/FruitSalad3.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Overriding/FruitSalad3.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Polymorphism/Apple2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Polymorphism/Apple2.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Polymorphism/Fruit2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Polymorphism/Fruit2.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Polymorphism/FruitSalad2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Polymorphism/FruitSalad2.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Statics/Enemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Statics/GameStatic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Statics/GameStatic.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Statics/PlayerStatic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Statics/PlayerStatic.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Ternary Operator/TernaryOperator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Ternary Operator/TernaryOperator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/ColorScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/ColorScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/SpinScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/SpinScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Coroutines/PropertiesAndCoroutines.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Delegates/DelegateScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Events/EventManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Extension Methods/ExtensionMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Extension Methods/ExtensionMethods.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Extension Methods/SomeExtensionClass.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Extension Methods/SomeExtensionClass.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/List and Dictionnaries/BadGuy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/List and Dictionnaries/BadGuy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/List and Dictionnaries/SomeDictionnaryClass.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/List and Dictionnaries/SomeDictionnaryClass.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/List and Dictionnaries/SomeListClass.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/List and Dictionnaries/SomeListClass.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Namespaces/SomeNamespaceClass.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quaternions/MotionScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Intermediate Scripting/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Intermediate Scripting/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Intermediate Scripting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Intermediate Scripting/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +33,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Delegates/DelegateScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quaternions/MotionScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Namespaces/SomeNamespaceClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Method Overloading/SomeClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Statics/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coroutines/PropertiesAndCoroutines.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -107,6 +74,26 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Overriding/FruitSalad3.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/Avatar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/Interfaces.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Extension Methods/ExtensionMethods.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Extension Methods/SomeExtensionClass.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Namespaces/SomeNamespaceClass.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/List and Dictionnaries/BadGuy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/List and Dictionnaries/SomeListClass.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/List and Dictionnaries/SomeDictionnaryClass.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Coroutines/CoroutinesExample.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Coroutines/PropertiesAndCoroutines.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Coroutines/ClickSetPosition.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Quaternions/MotionScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Quaternions/LookAtScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Quaternions/GravityScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Quaternions/SomeQuaternionClass.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Delegates/DelegateScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Delegates/MulticastScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/SpinScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Attributes/ColorScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Events/EventManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Events/TeleportScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Events/TurnColorScript.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mkbvblQqjhIvCFKj9aDnGYkOOE" />
@@ -155,6 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610040769696</updated>
       <workItem from="1610040772523" duration="4190000" />
+      <workItem from="1610109490824" duration="3469000" />
     </task>
     <servers />
   </component>
@@ -173,6 +161,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
