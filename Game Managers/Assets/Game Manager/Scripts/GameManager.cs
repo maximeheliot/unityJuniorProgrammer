@@ -1,21 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
+[System.Serializable] public class EventGameState : UnityEvent<GameManager.GameState, GameManager.GameState> { }
+ 
 public class GameManager : Singleton<GameManager>
 {
-    public GameObject[] systemPrefabs;
-
-    private List<GameObject> _instancedSystemPrefabs;
-    private string _currentLevelName = string.Empty;
-    private List<AsyncOperation> _loadOperations;
-
-    // What level the game is currently in
-    
     // Keep track of the game state
     
-    // Generate other persistent systems
+    // PREGAME, RUNNING, PAUSED
+    public enum GameState
+    {
+        PREGAME,
+        RUNNING,
+        PAUSED
+    }
+    
+    public GameObject[] systemPrefabs;
+    public EventGameState onGameStateChanged;
+
+    private List<GameObject> _instancedSystemPrefabs;
+    private List<AsyncOperation> _loadOperations;
+    private string _currentLevelName = string.Empty;
+
+    public GameState currentGameState { get; private set; } = GameState.PREGAME;
 
     private void Start()
     {
@@ -25,26 +34,26 @@ public class GameManager : Singleton<GameManager>
         _loadOperations = new List<AsyncOperation>();
 
         InstanciateSystemPrefabs();
-        
-        LoadLevel("Main");
     }
 
     #region Load and Unload game levels
 
-    void OnLoadOperationComplete(AsyncOperation ao)
+    private void OnLoadOperationComplete(AsyncOperation ao)
     {
         if (_loadOperations.Contains(ao))
         {
             _loadOperations.Remove(ao);
-            
-            // dispatch message
-            // transition between scenes
+
+            if (_loadOperations.Count == 0)
+            {
+                UpdateState(GameState.RUNNING);
+            }
         }
         
         Debug.Log("Load Complete.");
     }
 
-    void OnUnloadOperationComplete(AsyncOperation ao)
+    private void OnUnloadOperationComplete(AsyncOperation ao)
     {
         Debug.Log("Unload Complete.");
     }
@@ -78,7 +87,7 @@ public class GameManager : Singleton<GameManager>
 
     #endregion
 
-    void InstanciateSystemPrefabs()
+    private void InstanciateSystemPrefabs()
     {
         foreach (var obj in systemPrefabs)
         {
@@ -96,5 +105,33 @@ public class GameManager : Singleton<GameManager>
             Destroy(obj);
         }
         _instancedSystemPrefabs.Clear();
+    }
+
+    private void UpdateState(GameState state)
+    {
+        var previousGameState = currentGameState;
+        currentGameState = state;
+
+        switch (currentGameState)
+        {
+            case GameState.PREGAME:
+                break;
+            
+            case GameState.RUNNING:
+                break;
+            
+            case GameState.PAUSED:
+                break;
+            
+            default:
+                break;
+        }
+
+        onGameStateChanged.Invoke(currentGameState, previousGameState);
+    }
+
+    public void StartGame()
+    {
+        LoadLevel("Main");
     }
 }

@@ -2,50 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84d554e3-eab9-4aa2-a43f-f28afe9ba93b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Prefabs/Sword_pfb.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Prefabs/Sword_pfb.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Resources/CharacterData.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Resources/CharacterData/MainCharacterStats.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Resources/CharacterData/MainCharacterStats.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Scripts/Monobehaviours.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Scripts/Monobehaviours/CharacterInventory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Scripts/Monobehaviours/CharacterInventory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Scripts/Monobehaviours/CharacterStats.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Scripts/Monobehaviours/CharacterStats.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Scripts/Monobehaviours/ItemPickUp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Scripts/Monobehaviours/ItemPickUp.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Scripts/ScriptableObjects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Scripts/ScriptableObjects/CharacterStats_SO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Scripts/ScriptableObjects/CharacterStats_SO.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Scripts/ScriptableObjects/ItemPickUps_SO.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Character Stats/Scripts/ScriptableObjects/ItemPickUps_SO.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Animations/MainMenuFadeIn.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Animations/MainMenuFadeIn.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Animations/MainMenuFadeOut.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Animations/MainMenuFadeOut.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Animations/MainMenuTextAnim.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Animations/MainMenuTextAnim.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Prefabs/UIManager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Prefabs/UIManager.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/GameManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Utils.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Utils/Singleton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Utils/Singleton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/MainMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/MainMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/PauseMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/PauseMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/UIManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/UIManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character Stats/Resources/CharacterData/MainCharacterStats.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character Stats/Resources/CharacterData/MainCharacterStats.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Manager/Prefabs/UIManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Manager/Prefabs/UIManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Manager/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/GameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +29,9 @@
       <option value="$PROJECT_DIR$/Assets/3. Game Manager/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Singleton.cs" />
       <option value="$PROJECT_DIR$/Assets/Game Manager/Scripts/Utils/Singleton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/UIManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Game Manager/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/MainMenu.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nF6feLE4Cq0JpyFzWaAVwmQtAJ" />
@@ -93,10 +63,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="5256">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="5256" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -112,6 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610973618048</updated>
       <workItem from="1610973638480" duration="5287000" />
+      <workItem from="1611056481879" duration="4127000" />
     </task>
     <servers />
   </component>
@@ -130,6 +101,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
