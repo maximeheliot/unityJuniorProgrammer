@@ -1,18 +1,34 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Button resumeButton;
+    [SerializeField] private Button restartButton;
+    [SerializeField] private Button quitButton;
+
+    private void Start()
     {
-        
+        resumeButton.onClick.AddListener(HandleResumeClicked);
+        restartButton.onClick.AddListener(HandleRestartClicked);
+        quitButton.onClick.AddListener(HandleQuitClicked);
     }
 
-    // Update is called once per frame
-    void Update()
+    void HandleResumeClicked()
     {
-        
+        GameManager.instance.TogglePause();
+    }
+
+    void HandleRestartClicked()
+    {
+        GameManager.instance.RestartGame();
+    }
+
+    void HandleQuitClicked()
+    {
+        GameManager.instance.QuitGame();
     }
 }

@@ -48,9 +48,11 @@
             <e p="GameManager.cs" t="Include" />
             <e p="Menu" t="Include">
               <e p="MainMenu.cs" t="Include" />
+              <e p="PauseMenu.cs" t="Include" />
               <e p="UIManager.cs" t="Include" />
             </e>
             <e p="Utils" t="Include">
+              <e p="Events.cs" t="Include" />
               <e p="Singleton.cs" t="Include" />
             </e>
           </e>

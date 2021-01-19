@@ -49,6 +49,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb3d4e441d3419440b7ef6ebf22e5091, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resumeButton: {fileID: 114615682490614664}
+  restartButton: {fileID: 114110037165574424}
+  quitButton: {fileID: 114161082283702470}
 --- !u!1 &1052357631752932
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,7 +592,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mainMenu: {fileID: 5727209631155640426}
+  _pauseMenu: {fileID: 1373674325486256239}
   _dummyCamera: {fileID: 20757272912230474}
+  onMainMenuFadeComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1495308988550548
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,12 +648,8 @@ Animation:
   serializedVersion: 3
   m_Animation: {fileID: 0}
   m_Animations:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 7400000, guid: 3739763eb096ee440a6e86f6480a786c, type: 2}
   - {fileID: 7400000, guid: cd3a7154a27cac349b264a32093d18f0, type: 2}
+  - {fileID: 7400000, guid: af5d964feb87dcd49a040f93b5e3a220, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -668,6 +671,9 @@ MonoBehaviour:
     type: 2}
   _fadeInAnimationClip: {fileID: 7400000, guid: af5d964feb87dcd49a040f93b5e3a220,
     type: 2}
+  onMainMenuFadeComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1617907883662474
 GameObject:
   m_ObjectHideFlags: 0

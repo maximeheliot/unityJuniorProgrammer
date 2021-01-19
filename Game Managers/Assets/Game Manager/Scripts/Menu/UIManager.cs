@@ -6,7 +6,27 @@ using UnityEngine;
 public class UIManager : Singleton<UIManager>
 {
     [SerializeField] private MainMenu _mainMenu;
+    [SerializeField] private PauseMenu _pauseMenu;
+    
     [SerializeField] private Camera _dummyCamera;
+
+    public Events.EventFadeComplete onMainMenuFadeComplete;
+    
+    private void Start()
+    {
+        _mainMenu.onMainMenuFadeComplete.AddListener(HandleMainMenuFadeComplete);
+        GameManager.instance.onGameStateChanged.AddListener(HandleGameStateChanged);
+    }
+    
+    void HandleGameStateChanged(GameManager.GameState currentState, GameManager.GameState previousState)
+    {
+        _pauseMenu.gameObject.SetActive(currentState == GameManager.GameState.PAUSED);
+    }
+
+    void HandleMainMenuFadeComplete(bool fadeOut)
+    {
+        onMainMenuFadeComplete.Invoke(fadeOut);
+    }
     
     private void Update()
     {

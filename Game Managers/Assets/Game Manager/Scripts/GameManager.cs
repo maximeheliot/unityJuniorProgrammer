@@ -1,15 +1,9 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-[System.Serializable] public class EventGameState : UnityEvent<GameManager.GameState, GameManager.GameState> { }
- 
 public class GameManager : Singleton<GameManager>
 {
-    // Keep track of the game state
-    
-    // PREGAME, RUNNING, PAUSED
     public enum GameState
     {
         PREGAME,
@@ -18,7 +12,7 @@ public class GameManager : Singleton<GameManager>
     }
     
     public GameObject[] systemPrefabs;
-    public EventGameState onGameStateChanged;
+    public Events.EventGameState onGameStateChanged;
 
     private List<GameObject> _instancedSystemPrefabs;
     private List<AsyncOperation> _loadOperations;
@@ -34,6 +28,21 @@ public class GameManager : Singleton<GameManager>
         _loadOperations = new List<AsyncOperation>();
 
         InstanciateSystemPrefabs();
+        
+        UIManager.instance.onMainMenuFadeComplete.AddListener(HandleMainMenuFadeComplete);
+    }
+
+    private void Update()
+    {
+        if (currentGameState == GameState.PREGAME)
+        {
+            return;
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            TogglePause();
+        }
     }
 
     #region Load and Unload game levels
@@ -115,12 +124,15 @@ public class GameManager : Singleton<GameManager>
         switch (currentGameState)
         {
             case GameState.PREGAME:
+                Time.timeScale = 1.0f;
                 break;
             
             case GameState.RUNNING:
+                Time.timeScale = 1.0f;
                 break;
             
             case GameState.PAUSED:
+                Time.timeScale = 0.0f;
                 break;
             
             default:
@@ -133,5 +145,28 @@ public class GameManager : Singleton<GameManager>
     public void StartGame()
     {
         LoadLevel("Main");
+    }
+
+    public void TogglePause()
+    {
+        UpdateState(currentGameState == GameState.RUNNING ? GameState.PAUSED : GameState.RUNNING);
+    }
+
+    public void RestartGame()
+    {
+        UpdateState(GameState.PREGAME);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    void HandleMainMenuFadeComplete(bool fadeOut)
+    {
+        if (!fadeOut)
+        {
+            UnloadLevel(_currentLevelName);
+        }
     }
 }
