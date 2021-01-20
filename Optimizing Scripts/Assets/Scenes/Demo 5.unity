@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -214,6 +215,7 @@ GameObject:
   - component: {fileID: 1853483034}
   - component: {fileID: 1853483033}
   - component: {fileID: 1853483032}
+  - component: {fileID: 1853483035}
   m_Layer: 0
   m_Name: Playership
   m_TagString: Untagged
@@ -233,8 +235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c0cf48b365124f97b16fbe8eb149cb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1374188110522770906, guid: 5a3085926fc6a48f9a34ba82d3d63726,
-    type: 3}
 --- !u!212 &1853483033
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -249,6 +249,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -298,3 +299,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1853483035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853483031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd1c5f54705972848948abfdbceac3bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabObject: {fileID: 1374188110522770906, guid: 5a3085926fc6a48f9a34ba82d3d63726,
+    type: 3}
+  poolDepth: 15

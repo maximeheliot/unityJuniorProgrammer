@@ -12,7 +12,7 @@ public class BulletController : MonoBehaviour
     private Transform myTransform;
 
     // Start is called before the first frame update
-    private void Start()
+    private void OnEnable()
     {
         myTransform = transform;
 
@@ -24,7 +24,10 @@ public class BulletController : MonoBehaviour
 
     private void Update()
     {
-        if (myTransform.position.y > maxVerticalPosition) Destroy(gameObject);
+        if (myTransform.position.y > maxVerticalPosition)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     private IEnumerator Move(float duration)
