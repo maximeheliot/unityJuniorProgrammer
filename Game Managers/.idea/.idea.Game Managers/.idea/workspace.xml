@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84d554e3-eab9-4aa2-a43f-f28afe9ba93b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Utils/Events.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Utils/Events.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Managers/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Common/Scripts/MouseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Common/Scripts/MouseManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Manager/Prefabs/UIManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Manager/Prefabs/UIManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Manager/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/PauseMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Manager/Scripts/Menu/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Optimizing Scripts/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Optimizing Scripts/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Optimizing Scripts/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Optimizing Scripts/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Optimizing Scripts/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Optimizing Scripts/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +73,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9672">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="9672" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -100,6 +94,9 @@
       <workItem from="1610973638480" duration="5287000" />
       <workItem from="1611056481879" duration="4127000" />
       <workItem from="1611090547133" duration="3366000" />
+      <workItem from="1611667649624" duration="1737000" />
+      <workItem from="1611694988556" duration="4477000" />
+      <workItem from="1611742562160" duration="596000" />
     </task>
     <servers />
   </component>
